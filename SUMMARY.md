@@ -1,5 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [development environment](development-environment.md)
+* [Development environment](development-environment.md)
+* [Create Django project](create-django-project.md)
 
