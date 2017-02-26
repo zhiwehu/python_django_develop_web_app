@@ -6,7 +6,7 @@
 
 我们来看一下这个项目的目录结构
 
-![](/assets/Helloworld project directory structure)
+![](/assets/Helloworld project directory structure.png)
 
 * 最外层的Helloworld目录，是项目的根目录，在这个目录下我们看到有2个文件，一个是`db.sqlite3`是数据库文件，另一个是`manage.py`是Django提供的一个管理工具入口，比如上一节中我们使用`python manage.py runserver`来运行这个web app。
 * 根目录下面的Helloworld目录，是项目的配置目录，里面放了Django的一些配置信息，包括一个`settings.py`，一个根`urls.py`和`wsgi.py`，这些都是Django运行所需要的配置性文件。
@@ -20,7 +20,7 @@
 
 在本节里我重点是要介绍一个我认为是最佳的Django项目目录结构，当然所谓的『最佳』因人而异，我同时也会提供其他的一些选项供参考。接下来看一下这个目录结构。
 
-![](/assets/The best django project directory structure)
+![](/assets/The best django project directory structure.png)
 
 接下来我详细说明一下这个目录结构
 * 最外层的project是项目根目录，这个目录除了之前的`manage.py`这个文件外，还有更多的配置文件，和其他子目录。这些配置文件后面会详细介绍。
