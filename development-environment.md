@@ -6,7 +6,7 @@
 
 Python目前有2个大版本：Python2和Python3。我建议使用Python3，因为根据官方的说法，Python3代表了Python的未来。如果是几年之前，使用Python3会有很多问题，最主要的就是很多第三方的Python软件包不兼容Python3，但现在有越来越多的Python软件包都已经支持Python3，所以如果条件允许的话，我们应该尽可能的使用Python3。
 
-![](/assets/python version)
+![](/assets/python version.png)
 
 很多计算机操作系统都预装了Python，比如我的Mac OS就预装了Python2.7.10。我们只需要在终端命令行工具上输入`python --version`，如果你能看到相应的Python版本，就表明你已经安装了Python。如果没有安装或者是你想升级Python版本，只需要去官方网站\([https://www.python.org/downloads/\\)下载安装即可。](https://www.python.org/downloads/\)下载安装即可。)
 
@@ -19,7 +19,7 @@ Python目前有2个大版本：Python2和Python3。我建议使用Python3，因�
 1. 下载get-pip.py：[https://bootstrap.pypa.io/get-pip.py](https://bootstrap.pypa.io/get-pip.py)
 2. 运行`python get-pip.py`
 
-![](/assets/python get-pip.py)
+![](/assets/python get-pip.py.png)
 
 ## virtualenv
 
@@ -27,5 +27,5 @@ Python目前有2个大版本：Python2和Python3。我建议使用Python3，因�
 
 我们已经安装了pip，所以安装virtualenv只需要在命令行终端上输入'pip install virtualenv'即可。
 
-![](/assets/pip install virtualenv)
+![](/assets/pip install virtualenv.png)
 
