@@ -10,7 +10,7 @@
 virtualenv env --python=python3
 ```
 
-![](/assets/virtualenv env --python=python3)
+![](/assets/virtualenv env --python=python3.png)
 
 注意我使用了`--python=python3`的参数来告诉virtualenv这个虚拟环境是使用Python3的。virtualenv会创建一个Python虚拟环境在当前目录的`.env`子目录下，使用`source .env/bin/activate`可以激活这个虚拟Python环境，然后使用`python --version`命令可以看到这个虚拟Python环境的版本是Python3.6.0。
 
@@ -20,7 +20,7 @@ virtualenv env --python=python3
 
 安装完成后使用`python -m django --version`来检查Django的版本。
 
-![](/assets/pip install django)
+![](/assets/pip install django.png)
 
 ## 创建Django项目
 
@@ -30,11 +30,11 @@ Django是一个Web开发框架，它同时也提供了命令行工具来帮助�
 django-admin startproject Helloworld
 ```
 
-![](/assets/django startproject Helloworld)
+![](/assets/django startproject Helloworld.png)
 
 用上面的命令，创建了一个名为Helloworld的项目，这个项目的目录结构如下：
 
-![](/assets/Helloworld Django Project dir)
+![](/assets/Helloworld Django Project dir.png)
 
 ## 运行Django项目
 
@@ -45,9 +45,9 @@ cd Helloword
 python manage.py runserver
 ```
 
-![](/assets/python manage.py runserver)
+![](/assets/python manage.py runserver.png)
 
 打开浏览器，在地址栏输入`http://127.0.0.1:8000`，我们看到如下界面！
 
-![](/assets/first run Helloworld)
+![](/assets/first run Helloworld.png)
 
